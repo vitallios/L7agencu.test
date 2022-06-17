@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main {
+    width: 100%;
+    min-height: 100vh;
+    height: 100%;
+    background: linear-gradient(rgb(52, 118, 118) 30%, #909 100%)
+}
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 5% 0;
+}
+.main__todoList-blok{
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+    min-height: 100px;
+    margin: 0 auto;
+    background: rgb(222, 222, 222);
+    border-radius: 10px;
+}
+.main__todolist {
+    display: flex;
+    padding: 5% 0;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.main_input{
+    width: 60%;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+}
+.btn {
+    padding: 10px;
+    background: #789;
+    outline: none;
+    border: none;
+    margin-left: 5px;
+    border-radius: 10px;
+    color: #fff;
+}
+.mail__todolist-nambr{
+    width: fit-content;
+    margin: 0 auto;
+}
+.main__todoList-fail {
+    display: flex;
+    padding: 2%;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+}
+.main__todoList-text {
+    width: 90%;
+    color: #fff;
+    border-radius: 10px;
+}
+.todoList_span{
+    background: #789;
+    margin: 1em;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+    border-radius: 10px;
+    transition: all 0.7s;
+}
+.main__todoList-btn {
+    background: #d80000;
+    transition: .8s;
+}
+.main__todoList-btn:hover{
+    background: #850000;
+}
+.active{
+    background: #fff;
+    box-shadow: 0px 0px 20px green;
+    color: green;
+    font-weight: 900;
+}
+
+.liText{
+    width: 4em;
+    height: 2em;
+    background: #850000;
+}
